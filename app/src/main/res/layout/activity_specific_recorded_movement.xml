@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/text_recorded_movement_name"
+        style="@style/text_view_style"
+        android:hint="@string/recorded_movement_name"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:id="@+id/text_recorded_movement_date"
+        style="@style/text_view_style"
+        android:hint="@string/recorded_movement_date"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:id="@+id/text_recorded_movement_speed"
+        style="@style/text_view_style"
+        android:hint="@string/recorded_movement_speed"
+        android:inputType="textAutoComplete" />
+
+    <TextView
+        android:id="@+id/text_recorded_movement_distance"
+        style="@style/text_view_style"
+        android:hint="@string/recorded_movement_distance"
+        android:inputType="textAutoComplete" />
+
+    <EditText
+        android:id="@+id/text_recorded_movement_note"
+        style="@style/text_view_style"
+        android:hint="@string/recorded_movement_note"
+        android:inputType="textAutoComplete" />
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_open_map"
+        style="@style/button_style"
+        android:onClick="showMapRoute"
+        android:text="@string/button_open_map" />
+
+    <Button
+        android:id="@+id/button_edit_recmov"
+        style="@style/button_style"
+        android:onClick="updateRecMov"
+        android:text="@string/button_update_recmov" />
+
+    <Button
+        android:id="@+id/button_close"
+        style="@style/button_style"
+        android:onClick="closeRecMov"
+        android:text="@string/button_close_recmov" />
+
+</LinearLayout>

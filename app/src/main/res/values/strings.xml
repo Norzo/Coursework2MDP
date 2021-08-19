@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MyMovements</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="run_today_message">Today, you have run 0.0 km.</string>
+    <string name="best_run">Your best run was completed in 0 seconds, with a pace of 0 km/h, covering 0 km.</string>
+    <string name="compare_yesterday">That was better than yesterday, with an improved pace.</string>
+    <string name="recorded_movement_name">Name</string>
+    <string name="recorded_movement_date">Date</string>
+    <string name="recorded_movement_distance">0</string>
+    <string name="recorded_movement_note">Note</string>
+    <string name="recorded_movement_speed">0</string>
+    <string name="button_open_map">Check out your route</string>
+    <string name="button_update_recmov">Update your run data</string>
+    <string name="button_close_recmov">Close</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="start_button">Start</string>
+    <string name="timer_default">00:00:00</string>
+    <string name="distance_default">0.00 km</string>
+    <string name="finish_recording">Finish</string>
+    <string name="annotate_edittext">Anything special to note down?</string>
+    <string name="recmov_name_edittext">You can name your run here.</string>
+    <string name="name_your_run">Would you like to add anything special to your run?</string>
+    <string name="button_camera">Add a photo</string>
+    <string name="button_list_recordedmovements">Show your runs</string>
+
+    <string name="notification_title">MyMovements Progress</string>
+    <string name="title_activity_maps_route">Map</string>
+</resources>
